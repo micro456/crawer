@@ -9,4 +9,9 @@ package com.micro.base;
  */
 public interface Crawer {
 	
+	public String getSaveDir();
+	
+	public String getLocalUrl(String url);
+	
+	public String getSuffix();
 }
